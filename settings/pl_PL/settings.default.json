@@ -1,0 +1,36 @@
+{
+  "address_format": "{contact.address_name}
+{contact.street_address}
+{contact.supplemental_address_1}
+{contact.supplemental_address_2}
+{contact.city}{, }{contact.state_province}{ }{contact.postal_code}
+{contact.country}",
+  "mailing_format": "{contact.addressee}
+{contact.street_address}
+{contact.supplemental_address_1}
+{contact.supplemental_address_2}
+{contact.city}{, }{contact.state_province}{ }{contact.postal_code}
+{contact.country}",
+  "display_name_format": "{contact.individual_prefix}{ }{contact.first_name}{ }{contact.last_name}{ }{contact.individual_suffix}",
+  "sort_name_format": "{contact.last_name}{, }{contact.first_name}",
+  "monetaryThousandSeparator": " ",
+  "monetaryDecimalPoint": ",",
+  "moneyformat": "%a %c",
+  "moneyvalueformat": "%!i",
+  "defaultCurrency": "PLN",
+  "defaultContactCountry": "1039",
+  "defaultContactStateProvince": "1110",
+  "countryLimit": [1039],
+  "provinceLimit": [1039],
+  "dateformatDatetime": "%E %B %Y %H:%M",
+  "dateformatFull": "%E %B %Y",
+  "dateformatPartial": "%B %Y",
+  "dateformatTime": "%H:%M",
+  "dateformatYear": "%Y",
+  "dateformatFinancialBatch": "%d/%m/%Y",
+  "dateInputFormat": "dd-mm-yy",
+  "languagesOption": ["pl_PL"],
+  "lcMessages": "pl_PL",
+  "timeInputFormat": "2",
+  "weekBegins": "1"
+}
